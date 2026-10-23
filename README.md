@@ -35,12 +35,12 @@ npm run format:check  # Comprueba el formato
 npm run test:sites    # Verifica el adaptador de archivos estáticos
 ```
 
-La preparación del adaptador no registra ni publica un sitio. Esta entrega es local.
+La preparación del adaptador de Sites no publica un sitio. GitHub Pages usa el workflow indicado abajo.
 
 ## GitHub Pages
 
 El workflow `.github/workflows/pages.yml` compila y publica al subir cambios a `main`.
-El repositorio previsto es `jessicacasella/demo-traza-arquitectura`. En GitHub, configurar
+El repositorio es `JRCWebDesign/demo-traza-arquitectura`. En GitHub, configurar
 Settings → Pages → Source → GitHub Actions antes del primer despliegue.
 
 ```sh
