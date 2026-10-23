@@ -37,6 +37,21 @@ npm run test:sites    # Verifica el adaptador de archivos estáticos
 
 La preparación del adaptador no registra ni publica un sitio. Esta entrega es local.
 
+## GitHub Pages
+
+El workflow `.github/workflows/pages.yml` compila y publica al subir cambios a `main`.
+El repositorio previsto es `jessicacasella/demo-traza-arquitectura`. En GitHub, configurar
+Settings → Pages → Source → GitHub Actions antes del primer despliegue.
+
+```sh
+npm run build:pages
+```
+
+La compilación usa `/demo-traza-arquitectura/` como ruta base, incluidas las imágenes de
+los diálogos. Se publica exclusivamente `dist/client`, sin originales ni documentación.
+Si cambia el nombre del repositorio, actualizar la ruta base de `build:pages`.
+La publicación remota requiere autorizar la cuenta de GitHub correspondiente.
+
 ## Estructura y decisiones
 
 - `index.html`: contenido semántico completo, enlaces por anclas y detalles nativos.

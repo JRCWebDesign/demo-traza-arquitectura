@@ -39,14 +39,14 @@ const projects = {
   patio: {
     title: "Casa Patio",
     location: "01 / CANELONES, URUGUAY",
-    image: "/assets/casa-patio-obra.webp",
+    image: `${import.meta.env.BASE_URL}assets/casa-patio-obra.webp`,
     description: document.querySelector("#detalle-patio p").textContent,
     alt: "Patio conceptual con árbol central, hormigón, madera, grandes ventanales y jardín de gramíneas.",
   },
   sur: {
     title: "Reforma Sur",
     location: "02 / MALDONADO, URUGUAY",
-    image: "/assets/reforma-sur.webp",
+    image: `${import.meta.env.BASE_URL}assets/reforma-sur.webp`,
     description: document.querySelector("#detalle-sur p").textContent,
     alt: "Fachada conceptual de hormigón y vidrio abierta a un jardín de gramíneas al atardecer.",
   },
