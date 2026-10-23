@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.npm-cache/
+output/
+package-lock.json
+AGENTS.md
+docs/BRIEF.md
+docs/PLAN.md

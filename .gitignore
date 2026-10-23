@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.vite/
+.prototype-starter/
+.npm-cache/
+output/
+*.log

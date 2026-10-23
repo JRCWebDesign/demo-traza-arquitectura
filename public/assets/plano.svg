@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="1402" viewBox="0 0 1122 1402" fill="none">
+  <!-- Original, schematic drawing. Dimensions are decorative, not construction data. -->
+  <defs>
+    <pattern id="masonry" width="9" height="7" patternUnits="userSpaceOnUse">
+      <path d="M0 0h9M0 7h9M4 0v7" stroke="#b5a78c" stroke-width=".4" opacity=".45"/>
+    </pattern>
+    <pattern id="pavers" width="22" height="16" patternUnits="userSpaceOnUse">
+      <path d="M0 0h22v16H0ZM11 0v16" stroke="#b5a78c" stroke-width=".45" opacity=".4"/>
+    </pattern>
+    <g id="table" stroke="#c3b8a2" stroke-width=".7">
+      <rect x="12" y="17" width="62" height="32" rx="1"/>
+      <path d="M18 17V6h14v11m18 0V6h14v11M18 49v11h14V49m18 0v11h14V49M12 24H4v19h8m62-19h8v19h-8"/>
+      <path d="M15 20h56v26H15Z" opacity=".3"/>
+    </g>
+    <g id="bed" stroke="#c3b8a2" stroke-width=".7">
+      <rect width="65" height="79"/>
+      <path d="M4 6h26v17H4Zm31 0h26v17H35ZM3 28h59v48H3Z"/>
+      <path d="M3 33h59M3 36h59" opacity=".4"/>
+    </g>
+    <g id="sofa" stroke="#c3b8a2" stroke-width=".8">
+      <rect width="28" height="79" rx="2"/>
+      <path d="M5 5h17v22H5Zm0 25h17v22H5Zm0 25h17v18H5ZM23 0v79"/>
+    </g>
+    <g id="tree" stroke="#999771" stroke-width=".7" opacity=".65">
+      <path d="M0 32V0m0 14L-16-7M0 4 17-17M0-6-4-24M-9 4-26-1M9-7 27-5M-6-14-19-24M14-14 23-30"/>
+      <path d="M-2-30q-9-13-17-2-13-4-14 9-16 0-11 15-10 8 0 17-4 13 10 15 2 12 14 9 7 11 18 2 13 7 19-5 15 1 15-13 14-8 6-21 4-14-10-18-2-16-17-12-6-12-13-4Z"/>
+      <path d="M-23-19q10-11 18 0-2-17 9-14M-35 0q12-8 18 3m1 23q-4-14 9-16m32-22Q12-19 4-8m31 14q-15-5-16 7m-6 15q4-10-5-12"/>
+      <path d="M-28-10q5 12 15 6M-13-26q-3 13 8 15M15-28q3 12-4 17M29-4Q14 1 11 8M-17 14q7-9 15-2M4 20q7-7 12-1" opacity=".7"/>
+    </g>
+    <g id="shrub" stroke="#999771" stroke-width=".6" opacity=".6">
+      <path d="M0 9Q-25 0-13-8-17-23-2-18 8-30 16-17 32-12 20 0 22 15 8 13-4 24-9 10Z"/>
+      <path d="M0 13V-11M0 1-10-8M0 6 13-4M0-3 7-12"/>
+    </g>
+  </defs>
+
+  <!-- Fine construction lines and a restrained dimensional grid. -->
+  <g stroke="#c0b49d" stroke-width=".6" opacity=".48">
+    <path d="M345 0v116m-9-85h107M194 110h172M0 519h275M320 518v21M305 533h359M53 811v27m-12-12h352M185 888h18v269M154 879h400M756 845v74M1081 627v206m-19-7h28M1043 514v720M770 1230h294m-7-10v18M0 1187h202M298 1363h437M1058 1363h29"/>
+    <path d="M389 557h484m-475-9v284m-8-10h503M218 862h525m-522 8v283m-12-10h545M386 545v20m153-20v20m334-20v20M176 931h20m-20 104h20M1069 644h20m-20 180h20"/>
+  </g>
+  <g fill="#cabfa9" font-family="monospace" font-size="7" letter-spacing="1" opacity=".8">
+    <text x="532" y="555">8.20</text><text x="376" y="867">9.10</text>
+    <text x="1087" y="708" transform="rotate(-90 1087 708)">5.40</text>
+    <text x="193" y="1019" transform="rotate(-90 193 1019)">3.20</text>
+    <text x="1081" y="114">N</text>
+  </g>
+
+  <!-- Walls: a coherent series of rooms, thresholds and connecting passages. -->
+  <g stroke="#e7d9c1" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M382 0v78h96v48h76v106h-40v56m0 40v34h-31v139H283V366h161" stroke-width="7"/>
+    <path d="M382 0v78h96v48h76v106h-40v56m0 40v34h-31v139H283V366h161" stroke="#7e7766" stroke-width="1"/>
+    <path d="M552 172v286h150v43h331v-45h89" stroke-width="6"/>
+    <path d="M552 172v286h150v43h331v-45h89" stroke="#8e826a" stroke-width="1"/>
+    <path d="M283 501h368v20m49-20v57m-285 12h453v262h-79v50H555m-139-52v-260" stroke-width="7"/>
+    <path d="M283 501h368v20m49-20v57m-285 12h453v262h-79v50H555m-139-52v-260" stroke="#9c8f76" stroke-width="1"/>
+    <path d="M867 832h82v50h29v-44h144M949 882v49h-62v43H756v169h34m-577-257h341m-341 0v257h528V886h48" stroke-width="7"/>
+    <path d="M867 832h82v50h29v-44h144M949 882v49h-62v43H756v169h34m-577-257h341m-341 0v257h528V886h48" stroke="#8d806b" stroke-width="1"/>
+    <path d="M790 1143v86h245v-131h-34V977h-26m-25-2h-63m-130 169v85h33m0-91h211" stroke-width="7"/>
+    <path d="M790 1143v86h245v-131h-34V977h-26m-25-2h-63m-130 169v85h33m0-91h211" stroke="#8e826a" stroke-width="1"/>
+  </g>
+
+  <!-- Secondary partitions, windows, door swings and furnishings. -->
+  <g stroke="#b8ad98" stroke-width=".8" opacity=".8">
+    <path d="M378 32h62v49h-62Zm5 5h51v39h-51ZM362 84v65h69v-31h45M414 234v91h69m-64-86v80h59M439 297h40v66M283 366h-9v153H0M487 378h41v25m-41 1v97M497 442h41v51h-41Z"/>
+    <path d="M479 241a45 45 0 0 0-40 47h40M486 377v35a35 35 0 0 0 35-35M290 366v42a42 42 0 0 0 42-42M678 519a39 39 0 0 1 39 39h-39M869 839v43a43 43 0 0 0 43-43M949 886h-39a39 39 0 0 0 39 39M756 975h36a36 36 0 0 0-36-36M841 1225v-42a42 42 0 0 1 42 42"/>
+    <path d="M298 376h174v116H298ZM307 383h157m-157 5h157M553 471h96m-96 4h96M712 509h306m-306 4h306M421 578h439m-439 5h439M426 820h355m-355-5h355M222 894h324m-324 5h324M223 1133h507m-507-5h507M749 990v136m5-136v136M801 1138v81h222m-222 5h222"/>
+    <path d="M768 984h105v112H768ZM780 988h26v97h-26M870 984v113M918 981h72v110h-72ZM931 1013h44v34h-44ZM850 1150h135v65H850Z"/>
+    <path d="M642 529h21v21h-21M745 841h36v30h-36M976 946h20v20h-20"/>
+    <circle cx="519" cy="459" r="7"/><path d="M515 459h8M520 455v8"/>
+    <use href="#table" transform="translate(364 402)"/>
+    <use href="#table" transform="translate(875 1150)"/>
+    <use href="#sofa" transform="translate(799 992)"/>
+    <use href="#bed" transform="translate(908 998)"/>
+  </g>
+
+  <g fill="url(#masonry)" stroke="#c1b59e" stroke-width=".6" opacity=".65">
+    <path d="M275 335h10v167h-10Zm9 159h367v10H284ZM414 567h454v7H414Zm-4 7h8v253h-8ZM211 883h343v8H211Zm-7 8h10v253h-10ZM213 1137h528v10H213ZM792 1223h244v8H792Z"/>
+  </g>
+  <g fill="url(#pavers)" stroke="#a59b84" stroke-width=".5" opacity=".6">
+    <path d="M759 1105h39v119h-39ZM802 1105h196v30H802ZM283 337h126v28H283ZM554 831h232v45H554Z"/>
+  </g>
+
+  <!-- Planting is drawn as schematic landscape symbols, not photo substitutes. -->
+  <use href="#tree" transform="translate(412 110) scale(.95)"/>
+  <use href="#tree" transform="translate(474 177) scale(.8)"/>
+  <use href="#tree" transform="translate(225 452) scale(1.1)"/>
+  <use href="#tree" transform="translate(349 801) scale(1)"/>
+  <use href="#tree" transform="translate(1036 936) scale(1.5)"/>
+  <use href="#tree" transform="translate(1086 546) scale(1.1)"/>
+  <use href="#tree" transform="translate(542 1237) scale(1.4)"/>
+  <use href="#shrub" transform="translate(691 1198) scale(1.5)"/>
+  <use href="#shrub" transform="translate(655 1168) scale(1.2)"/>
+  <use href="#shrub" transform="translate(738 858)"/>
+  <use href="#shrub" transform="translate(377 804)"/>
+  <use href="#shrub" transform="translate(322 353)"/>
+  <use href="#shrub" transform="translate(1110 584)"/>
+  <use href="#shrub" transform="translate(814 859)"/>
+
+  <g stroke="#d3c5ac" stroke-width=".6" opacity=".85">
+    <path d="M42 443v40m-15-20h30M1064 104v48m-15-24h30"/>
+    <circle cx="1064" cy="128" r="14"/>
+  </g>
+</svg>

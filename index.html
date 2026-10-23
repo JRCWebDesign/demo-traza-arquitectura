@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es-UY">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#20211e" />
+    <meta
+      name="description"
+      content="TRAZA: una exploración conceptual de arquitectura, luz y formas de habitar. Portfolio de demostración."
+    />
+    <title>TRAZA / arquitectura — Espacios para habitar</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="/src/mobile.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="site" id="inicio">
+      <div class="blueprint" aria-hidden="true">
+        <img class="blueprint__drawing" src="/assets/plano.svg" alt="" width="1122" height="1402" />
+        <svg class="journey" viewBox="0 0 1122 1402" preserveAspectRatio="none">
+          <path
+            class="journey__base"
+            d="M488 277 H521 Q540 277 540 298 V430 Q540 465 577 465 H646 Q678 465 678 497 V552 Q678 569 699 569 H802 Q830 569 830 599 V852 Q830 877 855 877 H863 Q886 877 886 899 V913 Q886 935 910 935 H941 Q974 935 974 967 V1206 Q974 1249 945 1249 H778 V1285"
+          />
+          <path
+            class="journey__progress"
+            d="M488 277 H521 Q540 277 540 298 V430 Q540 465 577 465 H646 Q678 465 678 497 V552 Q678 569 699 569 H802 Q830 569 830 599 V852 Q830 877 855 877 H863 Q886 877 886 899 V913 Q886 935 910 935 H941 Q974 935 974 967 V1206 Q974 1249 945 1249 H778 V1285"
+          />
+          <g class="station" transform="translate(512 277)">
+            <circle r="10" />
+            <text y="3">01</text>
+          </g>
+          <g class="station" transform="translate(830 825)">
+            <circle r="10" />
+            <text y="3">02</text>
+          </g>
+          <g class="station station--end" transform="translate(778 1285)">
+            <circle r="10" />
+            <text y="3">03</text>
+          </g>
+        </svg>
+      </div>
+
+      <header class="header">
+        <a class="brand" href="#inicio" aria-label="TRAZA arquitectura, inicio">
+          <span class="brand__name">TRAZA</span><span class="brand__slash">/</span
+          ><span class="brand__descriptor">arquitectura</span>
+        </a>
+        <nav aria-label="Navegación principal">
+          <a href="#obras">Obras</a>
+          <a href="#mirada">Mirada</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </header>
+
+      <main id="contenido">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero__photo">
+            <picture>
+              <source srcset="/assets/casa-patio.webp" type="image/webp" />
+              <img
+                src="/assets/casa-patio.jpg"
+                width="1536"
+                height="1024"
+                alt="Casa conceptual de hormigón y ladrillo abierta a un patio con un árbol y un espejo de agua, al atardecer."
+                fetchpriority="high"
+              />
+            </picture>
+          </div>
+          <div class="hero__caption">
+            <p class="eyebrow">01 — EL UMBRAL</p>
+            <p>Vivienda Patio / Canelones</p>
+          </div>
+          <div class="hero__content">
+            <h1 id="hero-title">Espacios para<br />habitar.</h1>
+            <p class="hero__intro">Arquitectura que empieza por escucharte.</p>
+            <a class="button" href="#obras"
+              >Recorrer proyectos
+              <img src="/assets/arrow-up-right.svg" width="16" height="16" alt=""
+            /></a>
+          </div>
+          <p class="location"><span>Montevideo, Uruguay</span><span>34°54′ S, 56°10′ O</span></p>
+        </section>
+
+        <section class="works" id="obras" aria-labelledby="works-title">
+          <div class="works__intro">
+            <h2 id="works-title">Cada proyecto,<br />una forma de vivir.</h2>
+            <p>
+              Diseñamos espacios honestos y contemporáneos para la vida real. Casas que se integran
+              con su entorno, que priorizan la luz, los materiales y las personas.
+            </p>
+          </div>
+
+          <article class="project project--patio" aria-labelledby="patio-title">
+            <a
+              class="project__image"
+              href="#detalle-patio"
+              data-project="patio"
+              aria-label="Ver el proyecto conceptual Casa Patio"
+            >
+              <picture>
+                <source srcset="/assets/casa-patio-obra.webp" type="image/webp" />
+                <img
+                  src="/assets/casa-patio-obra.jpg"
+                  width="1672"
+                  height="941"
+                  alt="Patio de Casa Patio: vegetación, hormigón y aberturas de madera conectan los espacios de la vivienda."
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <div class="project__info">
+              <h3 id="patio-title"><span>01 /</span> Casa Patio</h3>
+              <p>Una vivienda que se abre al cielo. Vida interior y exterior en equilibrio.</p>
+              <p class="project__meta">Canelones, Uruguay<br />Proyecto conceptual</p>
+              <a
+                class="project__link"
+                href="#detalle-patio"
+                data-project="patio"
+                aria-label="Ver detalles de Casa Patio"
+                ><img src="/assets/arrow-right.svg" width="24" height="24" alt="" /><span
+                  class="sr-only"
+                  >Ver proyecto</span
+                ></a
+              >
+            </div>
+          </article>
+
+          <article class="project project--sur" aria-labelledby="sur-title">
+            <a
+              class="project__image"
+              href="#detalle-sur"
+              data-project="sur"
+              aria-label="Ver el proyecto conceptual Reforma Sur"
+            >
+              <picture>
+                <source srcset="/assets/reforma-sur.webp" type="image/webp" />
+                <img
+                  src="/assets/reforma-sur.jpg"
+                  width="1801"
+                  height="873"
+                  alt="Vivienda de una planta con grandes ventanales, techo de hormigón y jardín de gramíneas en luz cálida."
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <div class="project__info">
+              <h3 id="sur-title"><span>02 /</span> Reforma Sur</h3>
+              <p>
+                Una casa existente, una nueva vida. Materia, luz y paisaje en diálogo permanente.
+              </p>
+              <p class="project__meta">Maldonado, Uruguay<br />Proyecto conceptual</p>
+              <a
+                class="project__link"
+                href="#detalle-sur"
+                data-project="sur"
+                aria-label="Ver detalles de Reforma Sur"
+                ><img src="/assets/arrow-right.svg" width="24" height="24" alt="" /><span
+                  class="sr-only"
+                  >Ver proyecto</span
+                ></a
+              >
+            </div>
+          </article>
+        </section>
+
+        <section class="closing" aria-label="Mirada y contacto">
+          <div class="about" id="mirada">
+            <h2>Una mirada cercana.<br />Una arquitectura propia.</h2>
+            <p>
+              Creo en una arquitectura atemporal, sensible al lugar y a las personas. Cada proyecto
+              es una conversación, y una oportunidad para mejorar la vida cotidiana.
+            </p>
+          </div>
+          <div class="contact" id="contacto">
+            <a class="button" href="#contacto-demo" data-contact
+              >Conversemos sobre tu proyecto
+              <img src="/assets/arrow-up-right.svg" width="16" height="16" alt=""
+            /></a>
+            <p class="contact__note" id="contacto-demo" tabindex="-1">
+              Esta es una demo conceptual. El contacto profesional estará disponible al incorporar
+              los datos del estudio.
+            </p>
+          </div>
+        </section>
+
+        <section class="project-fallback" aria-label="Más sobre los proyectos">
+          <details id="detalle-patio">
+            <summary>Casa Patio — Detalles del proyecto conceptual</summary>
+            <p>
+              La casa se organiza en torno a un patio abierto. La luz natural, la vegetación y los
+              materiales cálidos conectan los ambientes con el exterior. Una exploración residencial
+              conceptual situada en Canelones, Uruguay.
+            </p>
+          </details>
+          <details id="detalle-sur">
+            <summary>Reforma Sur — Detalles del proyecto conceptual</summary>
+            <p>
+              Una exploración sobre cómo transformar una vivienda a partir de su relación con el
+              jardín. Las aperturas amplias y una paleta de hormigón y madera proponen nuevas formas
+              de habitar. Proyecto conceptual situado en Maldonado, Uruguay.
+            </p>
+          </details>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a
+          class="brand brand--small"
+          href="#inicio"
+          aria-label="TRAZA arquitectura, volver al inicio"
+          ><span class="brand__name">TRAZA</span><span class="brand__slash">/</span
+          ><span class="brand__descriptor">arquitectura</span></a
+        >
+        <span class="footer__rule" aria-hidden="true"></span>
+        <p>Estudio conceptual · Proyectos e imágenes de demostración</p>
+      </footer>
+    </div>
+
+    <dialog class="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" autofocus>
+        Cerrar <span aria-hidden="true">×</span>
+      </button>
+      <img
+        class="project-dialog__image"
+        src="/assets/casa-patio.webp"
+        width="1536"
+        height="1024"
+        alt=""
+      />
+      <div class="project-dialog__content">
+        <p class="eyebrow" id="dialog-location"></p>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-description"></p>
+        <p class="project-dialog__disclaimer">
+          Proyecto e imagen de demostración. No representa una obra construida.
+        </p>
+      </div>
+    </dialog>
+  </body>
+</html>
